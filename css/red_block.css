@@ -1,0 +1,136 @@
+/* Game Menu */
+.game-menu {
+    height: 100%;
+    background-color: #48bfff;
+}
+#game-menu-content {
+    padding: 15% 25%;
+}
+#choose-difficulty {
+    margin: 0;
+    color: white;
+    font-size: 2.4em;
+    text-align: center;
+}
+#difficulties {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+#difficulties p {
+    color: white;
+    font-size: 1.5em;
+}
+.difficulty {
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    border-radius: .3em;
+}
+.difficulty:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.block1 {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+}
+.block2 {
+    background-color: red;
+    height: 80px;
+    width: 80px;
+    margin-top: 20px;
+}
+.block3 {
+    background-color: red;
+    height: 60px;
+    width: 60px;
+    margin-top: 40px;
+}
+.block4 {
+    background-color: red;
+    height: 40px;
+    width: 40px;
+    margin: 60px auto 0 auto;
+}
+
+/* Game Win Screen */
+.game-win {
+    display: none;
+    background-color: rgb(73, 194, 73);
+    height: 100%;
+}
+#center-elements {
+    padding-top: 20%;
+}
+#win-text {
+    margin: 0;
+    color: white;
+    font-size: 4em;
+    text-align: center;
+    vertical-align: middle;
+}
+#game-btns {
+    display: flex;
+    margin: 50px auto 0 auto;
+    max-width: 260px;
+    align-items: center;
+}
+#btn-start-over {
+    display: none;
+    font-size: 1.2em;
+    padding: 10px;
+}
+#btn-exit {
+    width: 101px;
+    display: none;
+    font-size: 1.2em;
+    padding: 10px;
+}
+#output-button {
+    width: fit-content;
+}
+#div3 {
+    width:80px;
+    height:80px;
+    background-color:blue;
+    position: absolute;
+}
+
+/* Actual Game */
+.block-game {
+    height: 100%;
+    display: none;
+}
+#red-block-container {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.red-block-container2 {
+    position: absolute;
+}
+#red-block-container p {
+    display: block;
+    font-size: 1.3em;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+#red-block {
+    background-color:red;
+    width:100px;
+    height:100px;
+    margin: auto;
+}
+#red-block:hover {
+    background-color: #EB5757;
+}
+.red-block {
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}

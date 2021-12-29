@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Eli Fanous Coding</title>
+        <meta name="description" content="Eli Fanous's coding website">
+        <link rel="icon" href="css/images/code_coding_icon_153713.png"/>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/red_block.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="js/script.js"></script>
+        <script src="js/red_block.js"></script>
+    </head>
+    <body>
+        <!--Game menu screen (shows up first)-->
+        <section class="game-menu">
+            <div class="game-menu" id="game-menu-content">
+                <p id="choose-difficulty">Choose difficulty</p>
+                <div id="difficulties">
+                    <button class="difficulty dif1" type="button">
+                        <div class="block1"></div>
+                        <p>EASY</p>
+                    </button>
+                    <button class="difficulty dif2" type="button">
+                        <div class="block2"></div>
+                        <p>MEDIUM</p>
+                    </button>
+                    <button class="difficulty dif3" type="button">
+                        <div class="block3"></div>
+                        <p>HARD</p>
+                    </button>
+                    <button class="difficulty dif4" type="button">
+                        <div class="block4"></div>
+                        <p>EXTREME</p>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!--Main game screen-->
+        <section class="block-game">
+            <div id="red-block-container">
+                <div class="red-block-container2">
+                    <p>Click on me to win!</p>
+                    <div id="red-block"></div>
+                </div>
+            </div>   
+        </section>
+
+        <!--End/win screen-->
+        <section class="game-win">
+            <div id="center-elements">
+                <p id="win-text">You Win!</p>
+                <div id="game-btns">
+                    <span class="btn btn-primary" id="btn-start-over" type="button">GO AGAIN</span>
+                    <span style="flex-grow: 1;"></span>
+                    <a href="scripts.html" class="btn btn-primary" id="btn-exit" type="button">EXIT</a>
+                </div>
+            </div>
+        </section>
+        
+    </body>
+</html>

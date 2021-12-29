@@ -1,0 +1,13 @@
+.learned-languages-box ul {
+    padding: 0%;
+}
+.learned-languages-box ul li{
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 1.05em;
+}
+.learned-languages-title {
+    margin: 0;
+    font-size: 1.1em;
+    font-family: 'Courier New', Courier, monospace;
+}

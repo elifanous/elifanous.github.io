@@ -1,0 +1,12 @@
+.script-top-row {
+    display: flex;
+}
+.script-title {
+    text-align: start;
+    font-size: 27px;
+    font-weight: bold;
+    flex-grow: 1;
+}
+.scripts-section {
+    margin-bottom: 40px;
+}
